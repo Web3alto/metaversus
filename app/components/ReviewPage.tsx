@@ -26,8 +26,8 @@ const ReviewPage = () => {
 					Founder | Metaverus
 				</h3>
 				<p className="text-[4.85vw] lg:text-[1.3vw] leading-[10.5vw] lg:leading-[2.4vw] text-white">
-					“With the development of today's technology, metaverse is
-					very useful for today's work, or can be called web 3.0. by
+					“With the development of today&apos;s technology, metaverse is
+					very useful for today&apos;s work, or can be called web 3.0. by
 					using metaverse you can use it as anything”
 				</p>
 			</motion.div>

@@ -28,15 +28,15 @@ const AboutPage = () => {
 			>
 				<span className="text-white font-bold">Metaverse</span> is a new
 				thing in the future, where you can enjoy the virtual world by
-				feeling like it's really real, you can feel what you feel in
-				this metaverse world, because this is really the{" "}
+				feeling like it&apos;s really real, you can feel what you feel
+				in this metaverse world, because this is really the{" "}
 				<span className="text-white font-bold">
 					madness of the metaverse
 				</span>{" "}
 				of today, using only{" "}
 				<span className="text-white font-bold">VR</span> devices you can
 				easily explore the metaverse world you want, turn your dreams
-				into reality. Let's{" "}
+				into reality. Let&apos;s{" "}
 				<span className="text-white font-bold">explore</span> the
 				madness of the metaverse by scrolling down
 			</motion.h3>
@@ -47,7 +47,7 @@ const AboutPage = () => {
 				alt="arrow"
 			/>
 			<img
-				className="absolute w-[150vw] h-[55vw] right-[-10vw] top-[-10vw] flex blur-[10vw]  "
+				className="absolute w-[150vw] h-[55vw] right-[-10vw] top-[-10vw] flex blur-[10vw]"
 				src="/assets/light-about.svg"
 				alt="light-about"
 			/>

@@ -20,13 +20,13 @@ const NewsPage = () => {
 					variants={fadeIn("right", "tween", 0.2, 1)}
 					className="flex flex-col items-center justify-center z-10 p-[1vw] text-[3vw] lg:text-[1vw] text-[#C7C7C780]"
 				>
-					| What's New?
+					| What&apos;s New?
 				</motion.h2>
 				<motion.h1
 					variants={fadeIn("right", "tween", 0.2, 1)}
 					className="text-center lg:text-left text-[11vw] sm:text-[8.5vw] lg:text-[3.4vw] text-white font-bold leading-[12.5vw] sm:leading-[10vw] lg:leading-[4.25vw] pb-[15vw] lg:pb-[1.5vw] relative"
 				>
-					What's new about Metaversus?
+					What&apos;s new about Metaversus?
 				</motion.h1>
 				<motion.div
 					variants={fadeIn("right", "tween", 0.2, 1)}
