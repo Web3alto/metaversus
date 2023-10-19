@@ -35,7 +35,7 @@ const Explore = () => {
 					Choose the world you want <br />
 					to explore
 				</motion.h1>
-				<div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5 z-10">
+				<div className="mt-[15vw]  lg:mt-[5vw] h-[125vw] lg:h-fit flex lg:flex-row flex-col gap-[3vw] lg:gap-[1vw] z-10">
 					{exploreWorlds.map((world, index) => (
 						<ExploreCard
 							key={world.id}

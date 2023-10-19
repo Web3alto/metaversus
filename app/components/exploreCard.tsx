@@ -23,17 +23,19 @@ const ExploreCard: React.FC<ExploreCardProps> = ({
 	<motion.div
 		variants={fadeIn("right", "spring", index * 0.5, 0.75)}
 		className={`relative ${
-			active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
-		} flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[.6s] ease-out-flex cursor-pointer`}
+			active === id
+				? "lg:flex-[2] flex-[10] overflow-hidden"
+				: "lg:flex-[0.5] flex-[3] overflow-hidden"
+		} flex items-center justify-center w-[85vw] lg:w-[10vw] h-[70vw] lg:h-[35vw] transition-[flex] duration-[.6s] ease-out-flex cursor-pointer`}
 		onClick={() => handleClick(id)}
 	>
 		<img
 			src={imgUrl}
 			alt="planet-04"
-			className="absolute w-full h-full object-cover rounded-[3vw] lg:rounded-[1vw]"
+			className="absolute w-full h-full object-cover rounded-[3vw] lg:rounded-[1.5vw]"
 		/>
 		{active !== id ? (
-			<h3 className="lg:rotate-[270deg] text-[5vw] lg:text-[1.75vw] text-white font-bold lg:absolute static lg:w-[15vw] bottom-[9vw] sm:bottom-[5.25vw] lg:bottom-[8vw] left-[22.5vw] lg:left-[-3.25vw] z-10 ">
+			<h3 className="lg:rotate-[270deg] text-[5vw] lg:text-[1.75vw] text-white font-bold lg:absolute static lg:w-[15vw] bottom-[9vw] sm:bottom-[5.25vw] lg:bottom-[8vw] left-[22.5vw] lg:left-[-2.5vw] z-10 ">
 				{title}
 			</h3>
 		) : (
