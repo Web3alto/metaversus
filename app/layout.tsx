@@ -17,6 +17,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<head>
+				<link rel="icon" type="ico" href="favicon.ico" />
 				<link rel="preconnect" href="https://stijndv.com" />
 				<link
 					rel="stylesheet"
