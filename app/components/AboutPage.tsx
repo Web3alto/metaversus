@@ -17,7 +17,7 @@ const AboutPage = () => {
 			className="w-[70vw] mt-[25vw] lg:mt-[15vw] mb-[25vw] lg:mb-[15vw] flex items-center justify-center flex-col relative mx-auto"
 		>
 			<motion.h2
-				variants={fadeIn("up", "tween", 0.2, 1)}
+				variants={fadeIn("up", "tween", 0.3, 1)}
 				className="flex flex-col items-center justify-center z-10 p-[1vw] text-[3vw] lg:text-[1vw] text-[#C7C7C780]"
 			>
 				| About Metaverus
@@ -41,7 +41,7 @@ const AboutPage = () => {
 				madness of the metaverse by scrolling down
 			</motion.h3>
 			<motion.img
-				variants={fadeIn("up", "tween", 0.2, 1)}
+				variants={fadeIn("up", "tween", 0.3, 1)}
 				className="w-[7.5vw] sm:w-[6vw] lg:w-[2vw] mt-[4vw] lg:mt-[2vw] cursor-pointer z-10"
 				src="/assets/arrow.svg"
 				alt="arrow"

@@ -24,6 +24,7 @@ const HomePage = () => {
 				variants={navVariants}
 				initial="hidden"
 				whileInView="show"
+				viewport={{ once: true, amount: 0.25 }}
 				className="w-[85vw] lg:w-[80vw] h-[25vw] lg:h-[7.5vw] flex justify-between items-center mx-auto z-10"
 			>
 				<img
@@ -56,7 +57,7 @@ const HomePage = () => {
 					Metaverse
 				</motion.h1>
 				<motion.div
-					variants={fadeIn("up", "tween", 0.55, 0.7)}
+					variants={fadeIn("up", "tween", 0.5, 0.7)}
 					className="flex items-center mt-[-4vw] z-10"
 				>
 					<h1 className="text-[12.5vw] lg:text-[7.5vw] uppercase font-bold text-white mr-[.5vw]">
@@ -85,7 +86,7 @@ const HomePage = () => {
 				/>
 			</motion.div>
 			<motion.div
-				variants={fadeIn("up", "tween", 0.7, 0.6)}
+				variants={fadeIn("up", "tween", 0.5, 0.7)}
 				className="absolute right-[5vw] top-[10vw] hidden lg:flex flex-col items-center justify-center"
 			>
 				<img
@@ -110,7 +111,7 @@ const HomePage = () => {
 				/>
 			</motion.div>
 			<motion.div
-				variants={fadeIn("up", "tween", 0.7, 0.6)}
+				variants={fadeIn("up", "tween", 0.5, 0.7)}
 				className="absolute left-[20vw] top-[17.75vw] hidden lg:flex flex-col items-center justify-center"
 			>
 				<h2 className="text-[1vw] text-[#C7C7C780]">| Home</h2>

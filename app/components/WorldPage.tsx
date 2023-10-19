@@ -13,7 +13,7 @@ const WorldPage = () => {
 			initial="hidden"
 			whileInView="show"
 			viewport={{ once: true, amount: 0.25 }}
-			className="w-[85vw] lg:w-full h-fit flex items-center justify-center flex-col relative mx-auto"
+			className="w-[85vw] lg:w-full h-fit flex items-center justify-center flex-col relative mx-auto "
 		>
 			<motion.h2
 				variants={fadeIn("up", "tween", 0.2, 1)}
@@ -23,7 +23,7 @@ const WorldPage = () => {
 			</motion.h2>
 			<motion.h1
 				variants={fadeIn("up", "tween", 0.25, 1)}
-				className="text-[11vw] sm:text-[8.65vw] lg:text-[3.4vw] text-white font-bold text-center leading-[12.5vw] sm:leading-[9vw] lg:leading-[4.25vw]"
+				className="text-[11vw] sm:text-[8.65vw] lg:text-[3.4vw] text-white font-bold text-center leading-[12.5vw] sm:leading-[9vw] lg:leading-[4.25vw] z-10"
 			>
 				Choose the world you want <br />
 				to explore

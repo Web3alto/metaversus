@@ -1,18 +1,37 @@
-import React from "react";
+"use client";
+
+import { motion } from "framer-motion";
+import { fadeIn, staggerContainer } from "../utils/motion";
 
 const NewsPage = () => {
 	return (
-		<div className="w-full h-fit flex flex-col lg:flex-row items-center justify-center relative pt-[25vw] lg:pt-[10vw]">
+		<motion.div
+			variants={staggerContainer({
+				staggerChildren: 0.2,
+				delayChildren: 1,
+			})}
+			initial="hidden"
+			whileInView="show"
+			viewport={{ once: true, amount: 0.25 }}
+			className="w-full h-fit flex flex-col lg:flex-row items-center justify-center relative pt-[25vw] lg:pt-[10vw]"
+		>
 			<div className="w-[85vw] lg:w-[40vw] flex items-center lg:items-start justify-center flex-col ">
-				<h1 className="text-center lg:text-left text-[11vw] sm:text-[8.5vw] lg:text-[3.4vw] text-white font-bold leading-[12.5vw] sm:leading-[10vw] lg:leading-[4.25vw] pb-[15vw] lg:pb-[1.5vw] relative">
-					<div className="absolute left-[33vw] lg:left-0 top-[-11vw] lg:top-[-4vw] flex flex-col items-start justify-center">
-						<h2 className="text-[3vw] lg:text-[1vw] text-[#C7C7C780]">
-							| Whats New?
-						</h2>
-					</div>
+				<motion.h2
+					variants={fadeIn("right", "tween", 0.2, 1)}
+					className="flex flex-col items-center justify-center z-10 p-[1vw] text-[3vw] lg:text-[1vw] text-[#C7C7C780]"
+				>
+					| What's New?
+				</motion.h2>
+				<motion.h1
+					variants={fadeIn("right", "tween", 0.2, 1)}
+					className="text-center lg:text-left text-[11vw] sm:text-[8.5vw] lg:text-[3.4vw] text-white font-bold leading-[12.5vw] sm:leading-[10vw] lg:leading-[4.25vw] pb-[15vw] lg:pb-[1.5vw] relative"
+				>
 					What's new about Metaversus?
-				</h1>
-				<div className="flex flex-col lg:flex-row items-center justify-start">
+				</motion.h1>
+				<motion.div
+					variants={fadeIn("right", "tween", 0.2, 1)}
+					className="flex flex-col lg:flex-row items-center justify-start"
+				>
 					<div className="flex flex-col items-start justify-start w-[80vw] lg:w-[12.5vw] mb-[10vw] lg:mb-0 lg:mr-[2vw]">
 						<img
 							className="w-[15vw] sm:w-[12.5vw] lg:w-[3vw]"
@@ -41,9 +60,10 @@ const NewsPage = () => {
 							the world more realistic than ever
 						</p>
 					</div>
-				</div>
+				</motion.div>
 			</div>
-			<img
+			<motion.img
+				variants={fadeIn("left", "tween", 0.2, 1)}
 				className="w-[90vw] sm:w-[80vw] lg:w-[40vw] scale-x-[-1] z-10 ml-[-5vw] lg:ml-0 lg:rotate-[-15deg]"
 				src="/assets/worlds/planet-06.svg"
 				alt="planet-06"
@@ -53,7 +73,7 @@ const NewsPage = () => {
 				src="/assets/light-news.svg"
 				alt="light-news"
 			/>
-		</div>
+		</motion.div>
 	);
 };
 
