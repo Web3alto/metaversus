@@ -17,23 +17,23 @@ const ReviewPage = () => {
 		>
 			<motion.div
 				variants={fadeIn("right", "tween", 0.2, 1)}
-				className="border border-[#6A6A6A] h-[100vw] lg:h-[33.5vw] w-[85vw] lg:w-[22.5vw] flex flex-col items-start justify-end bg-[#ffffff0a] mb-[5vw] lg:mb-0 mr-0 lg:mr-[2vw] rounded-[5vw] lg:rounded-[2vw] p-[5vw] lg:p-[3vw] z-10"
+				className="border border-[#6A6A6A] h-[100vw] sm:h-[45vw] lg:h-[33.5vw] w-[85vw] lg:w-[22.5vw] flex flex-col items-start justify-end bg-[#ffffff0a] mb-[5vw] lg:mb-0 mr-0 lg:mr-[2vw] rounded-[5vw] lg:rounded-[2vw] p-[5vw] lg:p-[3vw] z-10"
 			>
-				<h2 className="text-[6.5vw] lg:text-[1.65vw] text-white">
+				<h2 className="text-[6.5vw] sm:text-[4.5vw] lg:text-[1.65vw] text-white ">
 					Samantha{" "}
 				</h2>
-				<h3 className="text-[4vw] lg:text-[.95vw] text-white pb-[7.5vw] lg:pb-[1vw] pt-[4vw] lg:pt-[1vw]">
+				<h3 className="text-[4vw] sm:text-[2.5vw] lg:text-[.95vw] text-white pb-[7.5vw] sm:pb-[5vw] lg:pb-[1vw] pt-[4vw] sm:pt-[.15vw]  lg:pt-[1vw]">
 					Founder | Metaverus
 				</h3>
-				<p className="text-[4.85vw] lg:text-[1.3vw] leading-[10.5vw] lg:leading-[2.4vw] text-white">
-					“With the development of today&apos;s technology, metaverse is
-					very useful for today&apos;s work, or can be called web 3.0. by
-					using metaverse you can use it as anything”
+				<p className="text-[4.85vw] sm:text-[3vw] lg:text-[1.3vw] leading-[10.5vw] sm:leading-[5vw] lg:leading-[2.4vw] text-white">
+					“With the development of today&apos;s technology, metaverse
+					is very useful for today&apos;s work, or can be called web
+					3.0. by using metaverse you can use it as anything”
 				</p>
 			</motion.div>
 			<motion.div
 				variants={fadeIn("left", "tween", 0.2, 1)}
-				className="w-[85vw] lg:w-[50vw] h-[60vw] lg:h-[33.5vw] bg-[url('/assets/worlds/planet-09.png')] bg-center bg-cover rounded-[5vw] lg:rounded-[2vw] z-10"
+				className="w-[85vw] lg:w-[50vw] h-[60vw] sm:h-[45vw] lg:h-[33.5vw] bg-[url('/assets/worlds/planet-09.png')] bg-center bg-cover rounded-[5vw] lg:rounded-[2vw] z-10"
 			></motion.div>
 			<motion.img
 				variants={fadeIn("left", "tween", 0.2, 1)}

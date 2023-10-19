@@ -18,7 +18,7 @@ const NewsPage = () => {
 			<div className="w-[85vw] lg:w-[40vw] flex items-center lg:items-start justify-center flex-col ">
 				<motion.h2
 					variants={fadeIn("right", "tween", 0.2, 1)}
-					className="flex flex-col items-center justify-center z-10 p-[1vw] text-[3vw] lg:text-[1vw] text-[#C7C7C780]"
+					className="flex flex-col items-center justify-center z-10 pb-[1vw] text-[3vw] lg:text-[1vw] text-[#C7C7C780]"
 				>
 					| What&apos;s New?
 				</motion.h2>
@@ -30,32 +30,32 @@ const NewsPage = () => {
 				</motion.h1>
 				<motion.div
 					variants={fadeIn("right", "tween", 0.2, 1)}
-					className="flex flex-col lg:flex-row items-center justify-start"
+					className="w-[80vw] lg:w-[auto] flex flex-col sm:flex-row items-start sm:justify-between justify-start"
 				>
-					<div className="flex flex-col items-start justify-start w-[80vw] lg:w-[12.5vw] mb-[10vw] lg:mb-0 lg:mr-[2vw]">
+					<div className=" flex flex-col items-start justify-start w-[80vw] sm:w-[35vw] lg:w-[12.5vw] mb-[10vw] lg:mb-0 mr-0 lg:mr-[2vw]">
 						<img
-							className="w-[15vw] sm:w-[12.5vw] lg:w-[3vw]"
+							className="w-[15vw] sm:w-[10vw] lg:w-[3vw]"
 							src="/assets/worlds/vr-pano.svg"
 							alt="vr-pano"
 						/>
-						<h2 className="text-[8vw] sm:text-[6vw] lg:text-[1.25vw] text-white font-bold mt-[1vw] mb-[1vw]">
+						<h2 className="text-[8vw] sm:text-[3.5vw]  lg:text-[1.25vw] text-white font-bold mt-[1vw] mb-[1vw]">
 							A new world
 						</h2>
-						<p className="text-[#B0B0B0] text-[5vw] sm:text-[4vw] lg:text-[.85vw]">
+						<p className="text-[#B0B0B0] text-[5vw] sm:text-[2.5vw] lg:text-[.85vw]">
 							We have the latest update with new world for you to
 							try never mind
 						</p>
 					</div>
-					<div className="flex flex-col items-start justify-start w-[80vw] mb-[10vw] lg:mb-0 lg:w-[12.5vw]">
+					<div className="flex flex-col items-start justify-start w-[80vw] sm:w-[35vw] mb-[10vw] lg:mb-0 lg:w-[12.5vw]">
 						<img
-							className="w-[15vw] sm:w-[12.5vw] lg:w-[3vw]"
+							className="w-[15vw]  sm:w-[10vw] lg:w-[3vw]"
 							src="/assets/worlds/vr-logo.svg"
 							alt="vr-logo"
 						/>
-						<h2 className="text-[8vw] sm:text-[6vw] lg:text-[1.25vw] text-white font-bold mt-[1vw] mb-[1vw]">
+						<h2 className="text-[8vw] sm:text-[3.5vw] lg:text-[1.25vw] text-white font-bold mt-[1vw] mb-[1vw]">
 							More realistic
 						</h2>
-						<p className="text-[#B0B0B0] text-[5vw] sm:text-[4vw] lg:text-[.85vw]">
+						<p className="text-[#B0B0B0] text-[5vw] sm:text-[2.5vw] lg:text-[.85vw]">
 							In the latest update, your eyes are narrow, making
 							the world more realistic than ever
 						</p>
@@ -64,7 +64,7 @@ const NewsPage = () => {
 			</div>
 			<motion.img
 				variants={fadeIn("left", "tween", 0.2, 1)}
-				className="w-[90vw] sm:w-[80vw] lg:w-[40vw] scale-x-[-1] z-10 ml-[-5vw] lg:ml-0 lg:rotate-[-15deg]"
+				className="w-[90vw] sm:w-[75vw] lg:w-[40vw] scale-x-[-1] z-10 ml-0 lg:rotate-[-15deg]"
 				src="/assets/worlds/planet-06.svg"
 				alt="planet-06"
 			/>

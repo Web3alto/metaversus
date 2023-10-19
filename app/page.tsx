@@ -1,11 +1,11 @@
-import AboutPage from "./components/AboutPage";
-import Footer from "./components/Footer";
-import HomePage from "./components/HomePage";
-import InsightPage from "./components/InsightPage";
-import MapPage from "./components/MapPage";
-import NewsPage from "./components/NewsPage";
-import ReviewPage from "./components/ReviewPage";
-import WorldPage from "./components/WorldPage";
+import AboutPage from "./sections/AboutSection";
+import Footer from "./sections/FooterSection";
+import HomePage from "./sections/HomeSection";
+import InsightPage from "./sections/InsightSection";
+import MapPage from "./sections/MapSection";
+import NewsPage from "./sections/NewsSection";
+import ReviewPage from "./sections/ReviewSection";
+import WorldPage from "./sections/WorldSection";
 
 export default function Home() {
 	return (

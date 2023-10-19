@@ -29,14 +29,14 @@ const InsightPage = () => {
 			</motion.h1>
 			<motion.div
 				variants={fadeIn("up", "tween", 1, 1)}
-				className="w-full flex flex-col lg:flex-row items-start lg:items-center justify-center mb-[10vw] lg:mb-[2vw] z-10"
+				className="w-full flex flex-col sm:flex-row items-start lg:items-center justify-center mb-[10vw] sm:mb-[2vw] z-10"
 			>
-				<div className="w-[85vw] lg:w-[15vw] h-[60vw] lg:h-[13vw] rounded-[10vw] lg:rounded-[2vw] mb-[7vw] lg:mb-0 mr-[3vw] bg-[url('/assets/worlds/planet-06.png')] bg-center bg-cover hover:scale-105 transition duration-500 ease"></div>
+				<div className="w-[85vw] sm:w-[40vw] lg:w-[15vw] h-[60vw] sm:h-[35vw] lg:h-[13vw] rounded-[10vw] sm:rounded-[4vw] lg:rounded-[2vw] mb-[7vw] lg:mb-0 mr-[3vw] bg-[url('/assets/worlds/planet-06.png')] bg-center bg-cover hover:scale-105 transition duration-500 ease"></div>
 				<div className="flex flex-col items-start justify-start">
-					<h2 className="w-[85vw] lg:w-[35vw] text-[7.25vw] sm:text-[6.25vw] lg:text-[2.25vw] text-white leading-[8.5vw] lg:leading-[2.75vw] mb-[5vw] lg:mb-[1vw] ">
+					<h2 className="w-[85vw] sm:w-[40vw] lg:w-[35vw] text-[7.25vw] sm:text-[4vw] lg:text-[2.25vw] text-white leading-[8.5vw] sm:leading-[5vw] lg:leading-[2.75vw] mb-[5vw] sm:mb-[2vw] lg:mb-[1vw] ">
 						The launch of the Metaverse makes Elon musk ketar-ketir
 					</h2>
-					<p className="w-[85vw] lg:w-[30vw] text-[4.25vw] sm:text-[3.5vw] lg:text-[1vw] text-[#adb1bb] leading-[6vw] lg:leading-[2.1vw]">
+					<p className="w-[85vw] sm:w-[40vw] lg:w-[30vw] text-[4.25vw] sm:text-[2.25vw] lg:text-[1vw] text-[#adb1bb] leading-[6vw] sm:leading-[4vw] lg:leading-[2.1vw]">
 						Magna etiam tempor orci eu lobortis elementum nibh
 						tellus molestie. Diam maecenas sed enim ut sem viverra
 						alique.
@@ -50,14 +50,14 @@ const InsightPage = () => {
 			</motion.div>
 			<motion.div
 				variants={fadeIn("up", "tween", 1.5, 1)}
-				className="w-full flex flex-col lg:flex-row items-start lg:items-center justify-center mb-[10vw] lg:mb-[2vw] z-10"
+				className="w-full flex flex-col sm:flex-row items-start lg:items-center justify-center mb-[10vw] sm:mb-[2vw] z-10"
 			>
-				<div className="w-[85vw] lg:w-[15vw] h-[60vw] lg:h-[13vw] rounded-[10vw] lg:rounded-[2vw] mb-[7vw] lg:mb-0  mr-[3vw] bg-[url('/assets/worlds/planet-07.png')] bg-center bg-cover hover:scale-105 transition duration-500 ease"></div>
+				<div className="w-[85vw] sm:w-[40vw] lg:w-[15vw] h-[60vw] sm:h-[35vw] lg:h-[13vw] rounded-[10vw] sm:rounded-[4vw] lg:rounded-[2vw] mb-[7vw] lg:mb-0 mr-[3vw] bg-[url('/assets/worlds/planet-07.png')] bg-center bg-cover hover:scale-105 transition duration-500 ease"></div>
 				<div className="flex flex-col items-start justify-start">
-					<h2 className="w-[85vw] lg:w-[35vw] text-[7.25vw] sm:text-[6.25vw] lg:text-[2.25vw] text-white leading-[8.5vw] lg:leading-[2.75vw] mb-[5vw] lg:mb-[1vw]">
+					<h2 className="w-[85vw] sm:w-[40vw] lg:w-[35vw] text-[7.25vw] sm:text-[4vw] lg:text-[2.25vw] text-white leading-[8.5vw] sm:leading-[5vw] lg:leading-[2.75vw] mb-[5vw] sm:mb-[2vw] lg:mb-[1vw] ">
 						7 tips to easily master the madness of the Metaverse
 					</h2>
-					<p className="w-[85vw] lg:w-[30vw] text-[4.25vw] sm:text-[3.5vw] lg:text-[1vw] text-[#adb1bb] leading-[6vw] lg:leading-[2.1vw]">
+					<p className="w-[85vw] sm:w-[40vw] lg:w-[30vw] text-[4.25vw] sm:text-[2.25vw] lg:text-[1vw] text-[#adb1bb] leading-[6vw] sm:leading-[4vw] lg:leading-[2.1vw]">
 						Vitae congue eu consequat ac felis donec. Et magnis dis
 						parturient montes nascetur ridiculus mus. Convallis
 						tellus id interdum
@@ -71,15 +71,15 @@ const InsightPage = () => {
 			</motion.div>
 			<motion.div
 				variants={fadeIn("up", "tween", 2, 1)}
-				className="w-full flex flex-col lg:flex-row items-start lg:items-center justify-center mb-[10vw] lg:mb-[2vw] z-10"
+				className="w-full flex flex-col sm:flex-row items-start lg:items-center justify-center mb-[10vw] sm:mb-[2vw] z-10"
 			>
-				<div className="w-[85vw] lg:w-[15vw] h-[60vw] lg:h-[13vw] rounded-[10vw] lg:rounded-[2vw] mb-[7vw] lg:mb-0 mr-[3vw] bg-[url('/assets/worlds/planet-08.png')] bg-center bg-cover hover:scale-105 transition duration-500 ease"></div>
+				<div className="w-[85vw] sm:w-[40vw] lg:w-[15vw] h-[60vw] sm:h-[35vw] lg:h-[13vw] rounded-[10vw] sm:rounded-[4vw] lg:rounded-[2vw] mb-[7vw] lg:mb-0 mr-[3vw] bg-[url('/assets/worlds/planet-08.png')] bg-center bg-cover hover:scale-105 transition duration-500 ease"></div>
 				<div className="flex flex-col items-start justify-start">
-					<h2 className="w-[85vw] lg:w-[35vw] text-[7.25vw] sm:text-[6.25vw] lg:text-[2.25vw] text-white leading-[8.5vw] lg:leading-[2.75vw] mb-[5vw] lg:mb-[1vw]">
+					<h2 className="w-[85vw] sm:w-[40vw] lg:w-[35vw] text-[7.25vw] sm:text-[4vw] lg:text-[2.25vw] text-white leading-[8.5vw] sm:leading-[5vw] lg:leading-[2.75vw] mb-[5vw] sm:mb-[2vw] lg:mb-[1vw] ">
 						With one platform you can explore the whole world
 						virtually
 					</h2>
-					<p className="w-[85vw] lg:w-[30vw] text-[4.25vw] sm:text-[3.5vw] lg:text-[1vw] text-[#adb1bb] leading-[6vw] lg:leading-[2.1vw]">
+					<p className="w-[85vw] sm:w-[40vw] lg:w-[30vw] text-[4.25vw] sm:text-[2.25vw] lg:text-[1vw] text-[#adb1bb] leading-[6vw] sm:leading-[4vw] lg:leading-[2.1vw]">
 						Quam quisque id diam vel quam elementum. Viverra nam
 						libero justo laoreet sit amet cursus sit. Mauris in
 						aliquam sem
@@ -91,6 +91,7 @@ const InsightPage = () => {
 					alt="arrow-right"
 				/>
 			</motion.div>
+
 			<img
 				className="absolute right-[-5vw] bottom-[10vw] blur-[10vw] w-[50vw] h-[50vw]"
 				src="/assets/light-insight.svg"
